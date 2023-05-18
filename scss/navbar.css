@@ -1,8 +1,9 @@
 .navbar {
   border-radius: 0px;
   background-color: rgb(0, 0, 0);
-  justify-content: center;
-  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-;
 }
 .navbar__logo {
   width: 15rem;
