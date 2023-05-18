@@ -4,8 +4,9 @@
 {
     border-radius: 0px;
     background-color: v.$black;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
     &__logo
     {

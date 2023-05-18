@@ -1,9 +1,5 @@
-body
-{
-  display: flex;
-  justify-content: center;
-}
 
 .main {
+  margin: 0 auto;
   max-width: 1296px;
 }/*# sourceMappingURL=main.css.map */
