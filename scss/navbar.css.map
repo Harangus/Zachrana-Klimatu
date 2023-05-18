@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sources":["navbar.scss","navbar.css"],"names":[],"mappings":"AAAA;EACI,YAAA;ACCJ","file":"navbar.css"}
+=======
+{"version":3,"sources":["navbar.scss","variables.scss","navbar.css"],"names":[],"mappings":"AAEA;EAEI,kCCJI;ACER","file":"navbar.css"}
+>>>>>>> 352e46a65b3a2fa48ef924332e85f419bd21ec78
