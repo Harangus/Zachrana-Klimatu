@@ -11,4 +11,15 @@
     {
         width: 15rem;
     }
+
+    &__icon
+    {
+        font-size: 2rem;
+    }
+
+    &__name
+    {
+        color: v.$white;
+        font-size: 2rem;
+    }
 }
