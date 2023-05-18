@@ -1,5 +1,9 @@
+body
+{
+  display: flex;
+  justify-content: center;
+}
+
 .main {
-  max-width: 1296;
-  min-width: 1000;
-  background-color: black;
+  max-width: 1296px;
 }/*# sourceMappingURL=main.css.map */

@@ -2,5 +2,13 @@
 
 .navbar
 {
-    background-color: $black;
+    border-radius: 0px;
+    background-color: v.$black;
+    justify-content: center;
+    align-items: center;
+
+    &__logo
+    {
+        width: 15rem;
+    }
 }
