@@ -1,6 +1,10 @@
 @import "./variables.scss";
+.icon{
+    color: black
+    ;}
+@use "variables";
 
 .navbar
 {
-    background-color: $black;
+    background-color: variables.$black;
 }
