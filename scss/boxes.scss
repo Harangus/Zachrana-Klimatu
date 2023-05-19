@@ -1,0 +1,16 @@
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    &__arrow{
+        font-size: 5rem;
+        width: 4rem;
+    }
+    &__box{
+        border: 1px solid black;
+        width: 5vw;
+        height: 5vw;
+    }
+}

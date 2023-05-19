@@ -1,0 +1,16 @@
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.boxes__arrow {
+  font-size: 5rem;
+  width: 4rem;
+}
+.boxes__box {
+  border: 1px solid black;
+  width: 5vw;
+  height: 5vw;
+}/*# sourceMappingURL=boxes.css.map */
