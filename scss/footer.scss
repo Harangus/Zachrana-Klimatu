@@ -1,9 +1,28 @@
-footer{
-    background-color: red;
+@use "variables" as v;
 
-    &__mdiv--width{
-        width: 30%;
-        font-size: 5rem;
+.footer{
+    border-radius: 0px;
+    background-color: v.$black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: v.$white;
+
+    &__name
+    {
+        font-weight: bold;
+        font-size: 2rem;
     }
 
+    &__icon
+    {
+        font-size: 2rem;
+        margin-right: 2rem;
+    }
+
+    &__prava
+    {
+        font-size: 2rem;
+        font-weight: bold;
+    }
 }

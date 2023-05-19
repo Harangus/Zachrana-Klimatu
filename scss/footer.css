@@ -1,7 +1,20 @@
-footer {
-  background-color: red;
+.footer {
+  border-radius: 0px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
 }
-footer__mdiv--width {
-  width: 30%;
-  font-size: 5rem;
+.footer__name {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.footer__icon {
+  font-size: 2rem;
+  margin-right: 2rem;
+}
+.footer__prava {
+  font-size: 2rem;
+  font-weight: bold;
 }/*# sourceMappingURL=footer.css.map */
