@@ -1,0 +1,28 @@
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    &__arrow{
+        font-size: 5rem;
+        width: 4rem;
+    }
+    &__box{
+        border: 1px solid black;
+        width: 5vw;
+        height: 5vw;
+    }
+}
+
+
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 15px solid #555555;
+    border-right: 0;
+  }
