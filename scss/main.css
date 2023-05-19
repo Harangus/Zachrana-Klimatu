@@ -1,5 +1,4 @@
-
 .main {
-  margin: 0 auto;
-  max-width: 1296px;
+  max-width: 1296;
+  min-width: 1000;
 }/*# sourceMappingURL=main.css.map */

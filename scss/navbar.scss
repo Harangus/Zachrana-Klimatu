@@ -6,6 +6,7 @@
     background-color: v.$black;
     display: flex;
     align-items: center;
+    justify-content: center;
 
     &__logo
     {
@@ -15,6 +16,8 @@
     &__icon
     {
         font-size: 2rem;
+        margin-left: 2rem;
+        margin-right: 1rem;
     }
 
     &__name

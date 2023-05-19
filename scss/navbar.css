@@ -3,12 +3,15 @@
   background-color: rgb(0, 0, 0);
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .navbar__logo {
   width: 15rem;
 }
 .navbar__icon {
   font-size: 2rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
 }
 .navbar__name {
   color: rgb(255, 255, 255);
