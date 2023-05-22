@@ -23,3 +23,6 @@ margin: 0 auto;
 .splide__pagination__page{
   background-color: red;
 }
+.splide__pagination__page.is-active{
+  background-color: black;
+}
