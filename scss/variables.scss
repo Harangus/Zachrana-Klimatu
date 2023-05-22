@@ -11,6 +11,15 @@ $title--size: 2rem;
 /*Fonts*/
 
 @font-face {
-    font-family: berbasneue_regular;
-    src: url(../fonts/Roboto-Regular.ttf) format('truetype');
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf");
 }
+
+@font-face
+{
+    font-family: "Bebas";
+    src: url("../fonts/BebasNeue-Regular.ttf");
+}
+
+$fontFamily: "Roboto";
+$fontTitle: "Bebas";

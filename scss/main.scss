@@ -1,3 +1,6 @@
-.main{
+@use 'variables' as v;
 
+*
+{
+    font-family: v.$fontFamily;
 }

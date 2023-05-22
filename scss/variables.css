@@ -1,5 +1,9 @@
 /*Fonts*/
 @font-face {
-  font-family: berbasneue_regular;
-  src: url(../fonts/Roboto-Regular.ttf) format("truetype");
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "Bebas";
+  src: url("../fonts/BebasNeue-Regular.ttf");
 }/*# sourceMappingURL=variables.css.map */

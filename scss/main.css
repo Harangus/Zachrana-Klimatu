@@ -1,1 +1,12 @@
-/*# sourceMappingURL=main.css.map */
+/*Fonts*/
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "Bebas";
+  src: url("../fonts/BebasNeue-Regular.ttf");
+}
+* {
+  font-family: "Roboto";
+}/*# sourceMappingURL=main.css.map */
