@@ -10,11 +10,16 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/f4cedc4174.js" crossorigin="anonymous"></script>
+
+    <!-- Splide -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+
     <meta charset="utf-8">
     <link rel="stylesheet" href="scss/navbar.css">
     <link rel="stylesheet" href="scss/main.css">
     <link rel="stylesheet" href="scss/footer.css">
-    <link rel="stylesheet" href="scss/boxes.css">
+    <link rel="stylesheet" href="scss/splide.css">
 
   </head>
 
@@ -35,14 +40,22 @@
         </div>
       </div>
 
-      <div class="boxes">
-        <div class="boxes__arrow">⟵</div>
-        <div class="boxes__box">asd</div>
-        <div class="boxes__box">asd</div>
-        <div class="boxes__box">asd</div>
-        <div class="boxes__arrow">⟶</div>
+      <section class="splide" aria-labelledby="carousel-heading">
+        <h2 id="carousel-heading">Nějaky random neco chuj</h2>
+      
+      
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide"><div class="splide__box">Box 1</div></li>
+            <li class="splide__slide"><div class="splide__box">Box 2</div></li>
+            <li class="splide__slide"><div class="splide__box">Box 3</div></li>
+            <li class="splide__slide"><div class="splide__box">Box 4</div></li>
+            <li class="splide__slide"><div class="splide__box">Box 5</div></li>
+            <li class="splide__slide"><div class="splide__box">Box 6</div></li>
+          </ul>
+        </div>
+      </section>
 
-      </div>
 
 
       <div class="container-fluid" style="background-color: black;">
@@ -79,5 +92,9 @@
       </div>
 
     </div>
+
+    <script>
+      new Splide( '.splide' ).mount();
+    </script>
   </body>
 </html>
