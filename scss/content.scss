@@ -1,5 +1,15 @@
+@use "variables" as v;
+
 .content
 {
     width: 1296px;
     margin: 0 auto;
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.nadpis
+{
+    font-family: v.$fontTitle;
+    color: v.$primary;
 }
