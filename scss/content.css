@@ -8,7 +8,7 @@
   src: url("../fonts/BebasNeue-Regular.ttf");
 }
 .content {
-  width: 1296px;
+  max-width: 1296px;
   margin: 0 auto;
   max-width: 1296px;
   margin: 0 auto;
