@@ -4,7 +4,7 @@
   text-align: center;
 }
 .splide__list {
-  width: 33.333%;
+  width: 100%;
 }
 .splide__track {
   width: 100%;
@@ -19,6 +19,6 @@
   margin-left: 25%;
   width: 20rem;
   height: 20rem;
-  border: 1px solid rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
   text-align: center;
 }/*# sourceMappingURL=splide.css.map */
