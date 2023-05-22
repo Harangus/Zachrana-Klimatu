@@ -20,3 +20,8 @@
   border: 2px solid rgb(0, 0, 0);
   text-align: center;
 }/*# sourceMappingURL=splide.css.map */
+
+
+.splide__pagination__page{
+  background-color: red;
+}
