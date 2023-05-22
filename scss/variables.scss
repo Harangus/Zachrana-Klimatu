@@ -7,3 +7,10 @@ $fourth: rgb(226, 158, 33);
 
 
 $title--size: 2rem;
+
+/*Fonts*/
+
+@font-face {
+    font-family: berbasneue_regular;
+    src: url(../fonts/Roboto-Regular.ttf) format('truetype');
+}

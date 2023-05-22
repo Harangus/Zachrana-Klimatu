@@ -1,1 +1,5 @@
-/*# sourceMappingURL=variables.css.map */
+/*Fonts*/
+@font-face {
+  font-family: berbasneue_regular;
+  src: url(../fonts/Roboto-Regular.ttf) format("truetype");
+}/*# sourceMappingURL=variables.css.map */
