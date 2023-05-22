@@ -10,11 +10,9 @@
 }
 .splide__slide {
   height: 25rem;
-  width: 15rem;
 }
 .splide__box {
-  margin-top: 1rem;
-  margin-left: 25%;
+margin: 0 auto;
   width: 20rem;
   height: 20rem;
   border: 2px solid rgb(0, 0, 0);
