@@ -34,4 +34,9 @@
   border: 1px solid black;
   height: 15rem;
   width: 15rem;
+}
+
+.paragraph {
+  text-align: center;
+  padding: 2rem;
 }/*# sourceMappingURL=circle-menu.css.map */
