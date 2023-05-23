@@ -20,10 +20,12 @@
 .splide2__slide {
   height: 15rem;
   width: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .splide2__box {
   margin-top: 1rem;
-  margin-left: 25%;
   width: 10rem;
   height: 10rem;
   border-radius: 50%;
