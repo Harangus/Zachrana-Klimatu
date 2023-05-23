@@ -1,6 +1,6 @@
 @use 'variables' as v;
 
-.splide1
+.splide2
 {
     margin-bottom: 5rem;
     text-align: center;
@@ -17,7 +17,7 @@
 
     &__slide
     {
-        height: 25rem;
+        height: 15rem;
         width: 15rem;
     }
 
@@ -25,8 +25,9 @@
     {
         margin-top: 1rem;
         margin-left: 25%;
-        width: 20rem;
-        height: 20rem;
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
         border: 2px solid v.$black;
         text-align: center;
     }
