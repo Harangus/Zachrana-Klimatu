@@ -15,6 +15,9 @@
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
 
+    <!--Chart-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
     <meta charset="utf-8">
     <link rel="stylesheet" href="scss/navbar.css">
     <link rel="stylesheet" href="scss/main.css">
@@ -22,6 +25,7 @@
     <link rel="stylesheet" href="scss/splide.css">
     <link rel="stylesheet" href="scss/content.css">
     <link rel="stylesheet" href="scss/circle-menu.css">
+    <link rel="stylesheet" href="scss/instagram.css">
 
 
     <link rel="stylesheet" href="scss/splide2.css">
@@ -55,9 +59,9 @@
           <h2 class="pismo">Co chceme</h2>
           <div class="splide__track splide1__track">
             <ul class="splide__list splide1__list">
-              <li class="splide__slide splide1__slide"><div class="splide1__box">Box 1</div></li>
-              <li class="splide__slide splide1__slide"><div class="splide1__box">Box 2</div></li>
-              <li class="splide__slide splide1__slide"><div class="splide1__box">Box 3</div></li>
+              <li class="splide__slide splide1__slide"><div class="splide1__box">Jasné cíle</div></li>
+              <li class="splide__slide splide1__slide"><div class="splide1__box">Přehledné řízení</div></li>
+              <li class="splide__slide splide1__slide"><div class="splide1__box">Kontrola financí</div></li>
               <li class="splide__slide splide1__slide"><div class="splide1__box">Box 4</div></li>
               <li class="splide__slide splide1__slide"><div class="splide1__box">Box 5</div></li>
               <li class="splide__slide splide1__slide"><div class="splide1__box">Box 6</div></li>
@@ -106,7 +110,27 @@
           <div style="text-align: center; margin-top: 5rem;">
             <h1 class="nadpis">Interaktivní graf vývoje emisí/teploty v ČR</h1>
           </div>
+          <div style="display: flex; align-items: center; justify-content: center;">
+            <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
+          </div>
 
+
+          <div style="text-align: center;margin-top: 5rem;">
+            <h1 class="nadpis">Podporovatelé </h1>
+          </div>
+          <div class="container">
+            <div class="row instagram">
+              <div class="col-md-1"></div>
+              <div class="col-md-4 instagram__blok">tady bude instagram mikiho</div>
+              <div class="col-md-2"></div>
+              <div class="col-md-4 instagram__blok">tady bude instagram klarky</div>
+              <div class="col-md-1"></div>
+            </div>
+          </div>
+
+          <div style="text-align: center;margin-top: 5rem;">
+            <h1 class="nadpis">Ke stažení</h1>
+          </div>
 
       </div>
 
@@ -153,5 +177,6 @@
         perPage : 4,
       }).mount();
     </script>
+    <script src="javascript/chart.js"></script>
   </body>
 </html>
