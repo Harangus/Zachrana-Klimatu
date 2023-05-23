@@ -15,20 +15,18 @@
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
 
+    <!--Chart-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    
     <meta charset="utf-8">
     <link rel="stylesheet" href="scss/navbar.css">
     <link rel="stylesheet" href="scss/main.css">
     <link rel="stylesheet" href="scss/footer.css">
     <link rel="stylesheet" href="scss/splide.css">
     <link rel="stylesheet" href="scss/content.css">
-<<<<<<< HEAD
     <link rel="stylesheet" href="scss/circle-menu.css">
-
-
-=======
     <link rel="stylesheet" href="scss/splide2.css">
     <link rel="stylesheet" href="scss/podpora.css">
->>>>>>> 0acd0d4c58b3eb094a0785f54fc20705a3d71a76
   </head>
 
   <body>
@@ -78,8 +76,7 @@
               <div class="circle__box">asd </div>
               <div class="circle__box">asd </div>
               <div class="circle__box">asd </div>
-          </div>
-          sdf
+            </div>
             </div>
         </div>
 
@@ -112,6 +109,7 @@
           <div style="text-align: center; margin-top: 5rem;">
             <h1 class="nadpis">Interaktivní graf vývoje emisí/teploty v ČR</h1>
           </div>
+          <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
 
 
       </div>
@@ -159,5 +157,6 @@
         perPage : 4,
       }).mount();
     </script>
+    <script src="javascript/chart.js"></script>
   </body>
 </html>
