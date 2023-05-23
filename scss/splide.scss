@@ -29,5 +29,15 @@
         height: 20rem;
         border: 2px solid v.$black;
         text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: v.$secondary;
+        font-size: 2rem;
+    }
+
+    &__box:hover
+    {
+        cursor: pointer;
     }
 }

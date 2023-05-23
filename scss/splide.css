@@ -28,4 +28,12 @@
   height: 20rem;
   border: 2px solid rgb(0, 0, 0);
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(80, 141, 194);
+  font-size: 2rem;
+}
+.splide1__box:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=splide.css.map */
