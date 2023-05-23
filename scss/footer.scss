@@ -3,24 +3,37 @@
 .footer{
     border-radius: 0px;
     background-color: v.$black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: v.$white;
+    
 
     &__name
     {
-        font-size: 2rem;
+        font-size: 3rem;
+        font-family: v.$fontTitle;
+
     }
 
     &__icon
     {
-        font-size: 2rem;
-        margin-right: 2rem;
+        font-size: 3rem;
+        margin: 1rem;
     }
 
     &__prava
     {
         font-size: 2rem;
     }
+}
+.socials{
+
+}
+.footer__flex{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.footer__width{
+    width: 80%;
+    margin: 0 auto;
+
 }
