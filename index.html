@@ -21,9 +21,14 @@
     <link rel="stylesheet" href="scss/footer.css">
     <link rel="stylesheet" href="scss/splide.css">
     <link rel="stylesheet" href="scss/content.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="scss/circle-menu.css">
 
 
+=======
+    <link rel="stylesheet" href="scss/splide2.css">
+    <link rel="stylesheet" href="scss/podpora.css">
+>>>>>>> 0acd0d4c58b3eb094a0785f54fc20705a3d71a76
   </head>
 
   <body>
@@ -49,16 +54,16 @@
         <h1 style="text-align: center;" class="nadpis">KLIMATICKÝ ZÁKON: POJĎME MÍT V KLIMATU KONEČNĚ POŘÁDEK</h1>
         </div>
 
-        <section class="splide">
-          <h2 id="carousel-heading">Co chceme</h2>
-          <div class="splide__track">
-            <ul class="splide__list">
-              <li class="splide__slide"><div class="splide__box">Box 1</div></li>
-              <li class="splide__slide"><div class="splide__box">Box 2</div></li>
-              <li class="splide__slide"><div class="splide__box">Box 3</div></li>
-              <li class="splide__slide"><div class="splide__box">Box 4</div></li>
-              <li class="splide__slide"><div class="splide__box">Box 5</div></li>
-              <li class="splide__slide"><div class="splide__box">Box 6</div></li>
+        <section id="splide1" class="splide splide1">
+          <h2 class="pismo">Co chceme</h2>
+          <div class="splide__track splide1__track">
+            <ul class="splide__list splide1__list">
+              <li class="splide__slide splide1__slide"><div class="splide1__box">Box 1</div></li>
+              <li class="splide__slide splide1__slide"><div class="splide1__box">Box 2</div></li>
+              <li class="splide__slide splide1__slide"><div class="splide1__box">Box 3</div></li>
+              <li class="splide__slide splide1__slide"><div class="splide1__box">Box 4</div></li>
+              <li class="splide__slide splide1__slide"><div class="splide1__box">Box 5</div></li>
+              <li class="splide__slide splide1__slide"><div class="splide1__box">Box 6</div></li>
             </ul>
           </div>
         </section>
@@ -80,8 +85,29 @@
 
           <div style="text-align: center;">
             <h1 class="nadpis">JAK DALEKO JSME</h1>
-            
             </div>
+            <section id="splide2" class="splide splide2">
+              <h2 class="pismo">Časový harmonogram toho, co chceme</h2>
+              <div class="splide__track splide2__track">
+                <ul class="splide__list splide2__list">
+                  <li class="splide__slide splide2__slide"><div class="splide2__box">Box 1</div></li>
+                  <li class="splide__slide splide2__slide"><div class="splide2__box">Box 2</div></li>
+                  <li class="splide__slide splide2__slide"><div class="splide2__box">Box 3</div></li>
+                  <li class="splide__slide splide2__slide"><div class="splide2__box">Box 4</div></li>
+                  <li class="splide__slide splide2__slide"><div class="splide2__box">Box 5</div></li>
+                  <li class="splide__slide splide2__slide"><div class="splide2__box">Box 6</div></li>
+                </ul>
+              </div>
+            </section>
+
+          <div style="text-align: center;">
+            <h1 class="nadpis">PŘIDEJTE SE</h1>
+          </div>
+          <ul class="podpora">
+            <li class="pismo podpora__polozka"><a href="#">Tady na discordu pracujeme na tvorbě zákona</a></li>
+            <li class="pismo podpora__polozka"><a href="#">Tady můžete klimazákon podpořit</a></li>
+            <li class="pismo podpora__polozka"><a href="#">Tady se nám můžete ozvat a můžeme společně uspořádat debatu nebo jinou akci</a></li>
+          </ul>
 
       </div>
 
@@ -121,9 +147,12 @@
     </div>
 
     <script>
-      new Splide( '.splide', {
+      new Splide( '#splide1', {
         perPage : 3,
       } ).mount();
+      new Splide( '#splide2', {
+        perPage : 4,
+      }).mount();
     </script>
   </body>
 </html>

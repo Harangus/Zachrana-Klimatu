@@ -7,25 +7,26 @@
   font-family: "Bebas";
   src: url("../fonts/BebasNeue-Regular.ttf");
 }
-.splide1 {
+.splide2 {
   margin-bottom: 5rem;
   text-align: center;
 }
-.splide1__list {
+.splide2__list {
   width: 100%;
 }
-.splide1__track {
+.splide2__track {
   width: 100%;
 }
-.splide1__slide {
-  height: 25rem;
+.splide2__slide {
+  height: 15rem;
   width: 15rem;
 }
-.splide1__box {
+.splide2__box {
   margin-top: 1rem;
   margin-left: 25%;
-  width: 20rem;
-  height: 20rem;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
   border: 2px solid rgb(0, 0, 0);
   text-align: center;
-}/*# sourceMappingURL=splide.css.map */
+}/*# sourceMappingURL=splide2.css.map */
