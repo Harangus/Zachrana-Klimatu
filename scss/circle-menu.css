@@ -1,0 +1,14 @@
+.circle {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: 0;
+}
+.circle__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}/*# sourceMappingURL=circle-menu.css.map */
