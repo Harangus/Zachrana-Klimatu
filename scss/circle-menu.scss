@@ -1,12 +1,18 @@
 .circle{
     position: relative;
-    width: 600px;
-    height: 600px;
-    border: 2px solid black;
+
     border-radius: 50%;
     background-color: red($color: #000000);
-
     &__box{
+        position: absolute;
+        left: 28%;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        transition: 0.5s;
+        border: 1px solid black;
+        transform: rotate(calc(470deg/8 * var(--i)));
+        transform-origin: 300px ;
     }
     &__menu{
         display: flex;
