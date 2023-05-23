@@ -1,5 +1,8 @@
 .instagram
 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
     &__blok
     {
         border: 1px solid black;

@@ -4,6 +4,7 @@
     border-radius: 0px;
     background-color: v.$black;
     color: v.$white;
+    height: 17vh;
     
 
     &__name
@@ -22,6 +23,12 @@
     &__prava
     {
         font-size: 2rem;
+        margin: 0rem;
+    }
+    &__width{
+        width: 60%;
+        margin: 0 auto;
+    
     }
 }
 .socials{
@@ -32,8 +39,9 @@
     justify-content: space-between;
     flex-direction: row;
 }
-.footer__width{
-    width: 80%;
-    margin: 0 auto;
+
+h3{
+    font-family: v.$fontTitle;
+    margin-top: 2rem;
 
 }
