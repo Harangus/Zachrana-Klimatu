@@ -4,7 +4,6 @@
     border-radius: 0px;
     background-color: v.$black;
     color: v.$white;
-    height: 17vh;
     
 
     &__name
@@ -53,6 +52,19 @@ h3{
             width: 95%;
                  
         }
+    }
+
+    .footer__flex
+    {
+        flex-direction: column;
+        //justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer__icon
+    {
+        font-size: 5rem;
     }
 
 }
