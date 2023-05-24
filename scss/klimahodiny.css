@@ -1,0 +1,33 @@
+/*Fonts*/
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "Bebas";
+  src: url("../fonts/BebasNeue-Regular.ttf");
+}
+.klimahodiny {
+  border: 2px solid rgb(80, 141, 194);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 50rem;
+}
+.klimahodiny__hodiny {
+  font-size: 4rem;
+  color: rgb(80, 141, 194);
+  font-family: "Roboto";
+}
+.klimahodiny__seznam {
+  color: rgb(80, 141, 194);
+  font-size: 2rem;
+}
+
+.mainKlimahodiny {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-around;
+}/*# sourceMappingURL=klimahodiny.css.map */
