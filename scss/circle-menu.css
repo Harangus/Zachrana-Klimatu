@@ -36,12 +36,50 @@
   min-height: 60vh;
 }
 
-.paragraph {
-  transform: rotate(calc(-120deg * var(--i) - 30deg));
+.box__div1 {
+  transform: rotate(330deg);
+}
+
+.box__div2 {
+  transform: rotate(270deg);
+}
+
+.box__div3 {
+  transform: rotate(210deg);
+}
+
+.box__div4 {
+  transform: rotate(150deg);
+}
+
+.box__div5 {
+  transform: rotate(90deg);
+}
+
+.box__div6 {
+  transform: rotate(30deg);
 }
 
 /*Circle responsivity*/
 @media only screen and (max-width: 700px) {
+  .box__div1 {
+    transform: none;
+  }
+  .box__div2 {
+    transform: none;
+  }
+  .box__div3 {
+    transform: none;
+  }
+  .box__div4 {
+    transform: none;
+  }
+  .box__div5 {
+    transform: none;
+  }
+  .box__div6 {
+    transform: none;
+  }
   .paragraph {
     transform: none;
   }
