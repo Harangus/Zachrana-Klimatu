@@ -17,7 +17,7 @@
 
     &__slide
     {
-        height: 15rem;
+        height: 30rem;
         width: 15rem;
         display: flex;
         justify-content: center;
@@ -26,11 +26,36 @@
 
     &__box
     {
-        margin-top: 1rem;
         width: 10rem;
         height: 10rem;
         border-radius: 50%;
         border: 2px solid v.$black;
         text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
+    &__kontejner
+    {
+        margin-top: 5rem;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.cara
+{
+    width: 2px;
+    height: 5rem;
+    background-color: v.$black;
+}
+
+.datum
+{
+    color: v.$primary;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
