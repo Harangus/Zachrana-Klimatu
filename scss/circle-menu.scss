@@ -15,6 +15,11 @@
         border-radius: 50%;
         transform: rotate(calc(60deg * var(--i) - 30deg));
         transform-origin:360px ;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        padding: 2rem;
     }
     &__menu{
         position: relative;
@@ -33,10 +38,16 @@
     min-height: 60vh;
 
 }
+.paragraph{
+    transform: rotate(calc(-120deg * var(--i) - 30deg));
+}
 
 /*Circle responsivity*/
 
 @media only screen and (max-width: 700px){
+    .paragraph{
+        transform: none;
+    }
     .circle {
         position: unset;
         border-radius: 50%;
