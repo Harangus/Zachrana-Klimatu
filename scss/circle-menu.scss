@@ -1,11 +1,13 @@
 @use 'variables' as v;
 
+.circle__wrapper{
+height: 100vh;
+justify-content: center;
+}
 .circle {
     position: relative;
     border-radius: 50%;
     width: 64.44683136412459vh;
-    height: 100vh;
-
 
     &__box{
         position: absolute;
