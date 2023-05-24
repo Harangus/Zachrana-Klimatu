@@ -1,3 +1,5 @@
+@use 'variables' as v;
+
 .circle {
     position: relative;
     border-radius: 50%;
@@ -10,6 +12,7 @@
         position: absolute;
         border-radius: 50%;
         border: 1px solid black;
+        background-color: v.$third;
         height: 15rem;
         width: 15rem;
         border-radius: 50%;
@@ -103,7 +106,6 @@
             transform: none;
             transform-origin:none;
             margin: 1rem;
-
         }
         &__menu{
             position: unset;

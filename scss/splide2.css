@@ -33,6 +33,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(214, 244, 255);
 }
 .splide2__kontejner {
   margin-top: 5rem;
