@@ -204,6 +204,20 @@
       } ).mount();
       new Splide( '#splide2', {
         perPage : 4,
+        breakpoints: {
+            767: {
+              perPage: 3,
+          
+            },
+            640: {
+              perPage: 1,
+        
+            },
+          },
+          focus: "center",
+          gap: '2em',
+          updateOnMove : true,
+          pagination: false,
       }).mount();
     </script>
     <script src="javascript/chart.js"></script>
