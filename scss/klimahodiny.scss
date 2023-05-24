@@ -1,0 +1,51 @@
+@use 'variables' as v;
+
+.klimahodiny
+{
+    border: 2px solid v.$secondary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 50rem;
+
+    &__hodiny
+    {
+        font-size: 4rem;
+        color: v.$secondary;
+        font-family: v.$fontFamily;
+    }
+
+    &__seznam
+    {
+        color: v.$secondary;
+        font-size: 2rem;
+    }
+}
+
+.mainKlimahodiny
+{
+    flex-direction: row;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 768px)
+{
+    .mainKlimahodiny
+    {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .klimahodiny
+    {
+        margin-bottom: 2rem;
+    }
+}

@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="scss/content.css">
     <link rel="stylesheet" href="scss/circle-menu.css">
     <link rel="stylesheet" href="scss/instagram.css">
+    <link rel="stylesheet" href="scss/klimahodiny.css">
 
 
     <link rel="stylesheet" href="scss/splide2.css">
@@ -55,8 +56,17 @@
         <h1 style="text-align: center;" class="nadpis">KLIMATICKÝ ZÁKON: POJĎME MÍT V KLIMATU KONEČNĚ POŘÁDEK</h1>
         </div>
 
-        <div class="klimathodiny">
-          <p id="hodiny"></p>
+        <div class="mainKlimahodiny">
+          <div class="klimahodiny">
+            <p id="hodiny" class="klimahodiny__hodiny"></p>
+          </div>
+          <div class="klimahodiny__text">
+            <ul class="klimahodiny__seznam">
+              <li>Klimatický zákon potřebujeme protože bla bla bla</li>
+              <li>Mikuláš P., pirátský euro</li>
+              <li>Klára Koc., poslankyně</li>
+            </ul>
+          </div>
         </div>
 
         <section id="splide1" class="splide splide1">
@@ -177,9 +187,37 @@
     <script>
       new Splide( '#splide1', {
         perPage : 3,
+          breakpoints: {
+            767: {
+              perPage: 2,
+          
+            },
+            640: {
+              perPage: 1,
+        
+            },
+          },
+          focus: "center",
+          gap: '2em',
+          updateOnMove : true,
+          pagination: false,
       } ).mount();
       new Splide( '#splide2', {
         perPage : 4,
+        breakpoints: {
+            767: {
+              perPage: 3,
+          
+            },
+            640: {
+              perPage: 1,
+        
+            },
+          },
+          focus: "center",
+          gap: '2em',
+          updateOnMove : true,
+          pagination: false,
       }).mount();
     </script>
     <script src="javascript/chart.js"></script>
