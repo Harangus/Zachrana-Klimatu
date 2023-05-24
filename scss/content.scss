@@ -11,12 +11,14 @@ margin: 0 auto;
 {
     font-family: v.$fontTitle;
     color: v.$primary;
+    font-size: 5rem;
 }
 
 .pismo
 {
     font-family: v.$fontFamily;
     color: v.$secondary;
+    font-size: 2rem;
 }
 @media only screen and (max-width: 800px) {
     .content

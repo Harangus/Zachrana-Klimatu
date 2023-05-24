@@ -15,11 +15,13 @@
 .nadpis {
   font-family: "Bebas";
   color: rgb(0, 91, 140);
+  font-size: 5rem;
 }
 
 .pismo {
   font-family: "Roboto";
   color: rgb(80, 141, 194);
+  font-size: 2rem;
 }
 
 @media only screen and (max-width: 800px) {
