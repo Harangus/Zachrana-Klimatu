@@ -4,6 +4,7 @@
 {
     border: 2px solid v.$secondary;
     background-color: v.$third;
+    margin-bottom: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,19 +17,43 @@
         color: v.$secondary;
         font-family: v.$fontFamily;
     }
-
-    &__seznam
+    
+    &__citat
     {
-        color: v.$secondary;
-        font-size: 2.5rem;
+        //border: 1px solid black;
     }
+
+    &__podpisy
+    {
+        //border: 1px solid black;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.popis
+{
+    color: v.$fourth;
+}
+
+.podpis
+{
+    color: v.$secondary;
+}
+
+.citat
+{
+    font-family: v.$fontTitle;
+    font-size: 5rem;
+    text-align: center;
+    color: v.$secondary;
 }
 
 .mainKlimahodiny
 {
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
