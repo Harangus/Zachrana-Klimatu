@@ -1,8 +1,8 @@
 .circle {
   position: relative;
   border-radius: 50%;
-  width: 600px;
-  height: 600px;
+  width: 64.4468313641vh;
+  height: 100vh;
 }
 .circle__box {
   position: absolute;
@@ -28,25 +28,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  padding: 10rem 0;
+  min-height: 60vh;
 }
 
 /*Circle responsivity*/
 @media only screen and (max-width: 700px) {
-  .circle__box {
-    transform-origin: 300px;
-  }
-  .circle__menu {
-    left: -38%;
-  }
-}
-@media only screen and (max-width: 600px) {
   .circle {
     position: unset;
     border-radius: 50%;
-    width: 600px;
-    height: 600px;
+    height: unset;
+    min-height: 64.4468313641vh;
   }
   .circle__box {
     position: unset;
@@ -57,6 +48,7 @@
     border-radius: 50%;
     transform: none;
     transform-origin: none;
+    margin: 1rem;
   }
   .circle__menu {
     position: unset;
@@ -70,10 +62,8 @@
     flex-direction: row;
   }
   .maincircle {
-    display: flex;
     justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    align-items: unset;
     flex-wrap: wrap;
     flex-direction: row;
   }

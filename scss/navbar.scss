@@ -54,4 +54,26 @@ height: 5rem;
     }
 
 }
+@media only screen and (max-width: 600px){
+    .nav__main{
+        flex-direction: column;
+
+    }
+    .nav__social{
+        justify-content: space-around;
+    }
+    .logo
+    {
+        align-items: center;
+        text-align: center;
+        width: 18rem;
+    }
+    .social__names{
+        margin: 0rem;
+    }
+    .logo__center{
+        text-align: center;
+        align-items: center;
+    }
+}
 
