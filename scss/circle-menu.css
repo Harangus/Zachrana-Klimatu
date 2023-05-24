@@ -7,15 +7,11 @@
   font-family: "Bebas";
   src: url("../fonts/BebasNeue-Regular.ttf");
 }
-.circle__wrapper {
-  height: 100vh;
-  justify-content: center;
-}
-
 .circle {
   position: relative;
   border-radius: 50%;
   width: 64.4468313641vh;
+  height: 100vh;
 }
 .circle__box {
   position: absolute;
