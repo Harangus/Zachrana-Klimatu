@@ -4,6 +4,7 @@
   flex-direction: row;
 }
 .instagram__blok {
+  margin: 5rem;
   border: 1px solid black;
   aspect-ratio: 1/1;
 }
