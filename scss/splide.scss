@@ -26,6 +26,9 @@
 
     &__box
     {
+        background-size:     cover;                      /* <------ */
+        background-repeat:   no-repeat;
+        background-position: center center; 
         margin-top: 1rem;
         width: 20rem;
         height: 20rem;

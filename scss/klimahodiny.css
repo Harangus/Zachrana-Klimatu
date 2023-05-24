@@ -9,6 +9,7 @@
 }
 .klimahodiny {
   border: 2px solid rgb(80, 141, 194);
+  background-color: rgb(214, 244, 255);
   display: flex;
   justify-content: center;
   align-items: center;
