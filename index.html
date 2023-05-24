@@ -187,6 +187,20 @@
     <script>
       new Splide( '#splide1', {
         perPage : 3,
+          breakpoints: {
+            767: {
+              perPage: 2,
+          
+            },
+            640: {
+              perPage: 1,
+        
+            },
+          },
+          focus: "center",
+          gap: '2em',
+          updateOnMove : true,
+          pagination: false,
       } ).mount();
       new Splide( '#splide2', {
         perPage : 4,
