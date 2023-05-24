@@ -26,8 +26,23 @@
 }
 
 .mainKlimahodiny {
+  flex-direction: row;
   margin-top: 5rem;
   margin-bottom: 5rem;
   display: flex;
+  align-items: center;
   justify-content: space-around;
+}
+
+@media only screen and (max-width: 768px) {
+  .mainKlimahodiny {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .klimahodiny {
+    margin-bottom: 2rem;
+  }
 }/*# sourceMappingURL=klimahodiny.css.map */
