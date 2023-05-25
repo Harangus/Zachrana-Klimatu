@@ -4,7 +4,8 @@
 .circle {
     position: relative;
     border-radius: 50%;
-    width: 64.44683136412459vh;
+    //width: 64.44683136412459rem;
+    width: 60rem;
     height: 100vh;
 
 
@@ -33,6 +34,11 @@
         align-items: center;
         display: flex;        
     }
+
+    &__wrapper
+    {
+    }
+
     }
 .maincircle{
     margin: 0 5rem auto;
@@ -40,7 +46,6 @@
     justify-content: center;
     align-items: center;
     min-height: 60vh;
-
 }
 
 .box__pismo

@@ -10,7 +10,7 @@
 .circle {
   position: relative;
   border-radius: 50%;
-  width: 64.4468313641vh;
+  width: 60rem;
   height: 100vh;
 }
 .circle__box {
@@ -38,7 +38,6 @@
   align-items: center;
   display: flex;
 }
-
 .maincircle {
   margin: 0 5rem auto;
   display: flex;
